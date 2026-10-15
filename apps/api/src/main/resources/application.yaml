@@ -1,3 +1,10 @@
 spring:
   application:
     name: api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/budget
+    username: budget
+    password: budget
+  jpa:
+    hibernate:
+      ddl-auto: validate
